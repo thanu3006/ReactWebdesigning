@@ -1,0 +1,63 @@
+.data{
+	display: flex;
+	border:2px solid red;
+	padding: 1%;
+	margin: 1%;
+}
+.data>div{
+	width: 30%;
+	border:2px solid blue;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 10px 0px 10px 0px skyblue;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	color:;
+}
+h3{
+	color:;
+}
+button{
+	box-shadow: 2px 2px 2px 2px blue;
+	width: 40%;
+}
+hr{
+	color:blue;
+}
+
+/*Meda queries*/
+@media only screen and (min-width:320px) and (max-width:480px){
+.data{
+	display: flex;
+	border:2px solid red;
+	padding: 1%;
+	margin: 1%;
+	flex-direction:column;
+}
+.data>div{
+	width: 100%;
+	border:2px solid blue;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 10px 0px 10px 0px skyblue;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+}
