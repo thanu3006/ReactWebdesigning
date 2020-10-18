@@ -1,4 +1,5 @@
 var details={
-    name:"Thanuja",
-    
+    name:"Apssdc",
+    Year:"2015",
+    courses:["webdesign using react", "python", "Android"]
 }
